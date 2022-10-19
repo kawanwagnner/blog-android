@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@font-face {
+    font-family: droid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10000;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header { 
+    background-image: linear-gradient(to bottom, #3CD681, #1A5C38);
+}
+
+.list_navbar {
+    display: flex;
+    list-style: none;
+}
+
+.list_navbar li {
+    margin-left: 0px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.list_navbar > li > a {
+    color: white;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: roboto;
+
+}
+
+.subtitulo {
+    color: rgba(255, 255, 255, 0.658);
+    text-align: center;
+    font-size: 1em;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    max-width: 900px;
+    height: 100%;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > div > h1 {
+    background-color: rgba(28, 245, 8, 0.288);
+    font-family: droid;
+    color: #1A5C38;
+    text-align: left;
+    text-indent: 15px;
+    
+    margin: auto;
+}
+
+main > div > p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+
+main > div > .h1_principal {
+    background-color: white;
+    padding: 20px;
+    color: #1A5C38;
+    text-indent: 1px;
+}
+
+.imgs {
+    width: 100%;
+}
+
+main > .video-externo {
+    background-color: #1A5C38;
+    margin-left: -10px;
+    width: 100%;
+    padding: 10px;
+}
+
+iframe {
+    margin: auto;
+    width: 90%;
+}
+
+.list-flex {
+    background-color: #C5EBD6;
+    display: flex;
+    padding: 10px;
+    border-radius: 0 0 0px 0px;
+}
+
+.qur {
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    width: 88.8%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.ulg li {
+    text-align:left ;
+    text-align: justify;
+    text-decoration: underline;
+    width: 500px;
+    margin-left: 25px;
+    text-align: justify;
+    list-style-image: url("icon/._favicon.ico");
+}
+
+#rodape {
+    background-color:#1A5C38 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.link_droid {
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.strong {
+    color: #1A5C38;
+}
+
+#background-qur {
+    background-color: #C5EBD6;
+    text-indent: 20px;
+    padding: 10px;
+    text-align: justify;
+    width: 88.8%;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+#background-qur p {
+    margin-top: 20px;
+}
+
+.paragraph {
+    padding: 40px;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.img_droid {
+    width: 50%;
+}
+
+@media (max-width: 1215px) {
+    .list-flex {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1050px) {
+    .imgs, .img_droid {
+        width:70%;
+    }
+}
